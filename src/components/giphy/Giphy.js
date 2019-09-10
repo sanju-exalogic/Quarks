@@ -14,7 +14,7 @@ class Giphy extends React.Component {
     var api_key = this.props.apiKey;
     var limit = this.props.limit;
     var url =
-      "http://api.giphy.com/v1/gifs/search?api_key=" +
+      "https://api.giphy.com/v1/gifs/search?api_key=" +
       api_key +
       "&q=" +
       gif.target.value +
